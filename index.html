@@ -7,18 +7,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
         /* Style the loading container */
-        #loadingContainer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background-color: #f2f2f2;
-            z-index: 9999;
-        }
+       
         
         /* Style the portfolio content container */
         #portfolioContent {
@@ -27,23 +16,19 @@
         }
     </style>
        <!-- Custom CSS Style for outlining columns -->
-       <div id="loadingContainer">
-        <video id="loadingVideo" muted autoplay playsinline>
-            <source src="https://your-video-url.com/your-loading-animation.mp4" type="video/mp4">
-        </video>
-    </div>           
+              
        
 </head>
 <body style="background-color: black;">
-    <div style="width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #f2f2f2;">
-        <video id="loadingVideo" muted autoplay playsinline>
-            <source src="./images.css/AdobeStock_403167341.mov" type="video/mp4">
-        </video>
-    </div>
+    
     <div id="portfolioContent">
         <div class="jumbotron" style="background-color: black; color: white; border-radius: 0%;">
         <div class="js-media-container shot-media-container  " data-shot-id="10846778" data-type="modal">
-          <div class="shot-image-color-palette-container">      
+            <div style="width: 50%; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #f2f2f2;">
+                <video id="loadingVideo" muted autoplay playsinline>
+                    <source src="./images.css/AdobeStock_403167341.mov" type="video/mp4">
+                </video>
+            </div> 
           </div>      
         </div>
                 

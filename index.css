@@ -11,6 +11,9 @@ z-index: 1;}
 h1 {
     color: #F23580;
 }
+h2,  {
+    color: #F23580;
+}
 
 .over-view-body {
     color: #F23580;
@@ -40,3 +43,7 @@ border: 1px solid rgba(0,0,0,.125);
 border-radius: 0%;
 margin-top: -6%;
 /* border-radius: .25rem; */} 
+
+.card-title {
+    color: #F23580;
+}

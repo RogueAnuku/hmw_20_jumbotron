@@ -1,12 +1,14 @@
 body {
     background-color: #000;
 }
-.jumbotron-conent {
-position: absolute;
-top: 50%;
-left: 34%;
-transform: translate(-50%, -50%);
-z-index: 1;}
+.jumbotron-content {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
 
 h1 {
     color: #F23580;
@@ -44,6 +46,3 @@ border-radius: 0%;
 margin-top: -6%;
 /* border-radius: .25rem; */} 
 
-.card-title {
-    color: #F23580;
-}

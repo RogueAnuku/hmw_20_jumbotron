@@ -69,20 +69,25 @@
         }
 
         .jumbotron video {
-            width: 70%;
+            width: 60%;
             height: auto;
             display: block;
-            margin-left: 70%;
+            margin-left: 78%;
             margin-top: -5%;
         }
 
         .jumbotron-content {
             position: absolute;
             top: 50%;
-            left: 34%;
+            left: 15%;
             transform: translate(-50%, -56%);
             z-index: 1;
         }
+        .col-md-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 5.333333%;
+}
      
         h1, h1 {
             color: #03A9F4;
@@ -101,6 +106,11 @@
             font-weight: 300;
             color: aliceblue;
         }
+        .col-md-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 5.333333%;
+}
 
         .col {
             border: 1px solid black;
@@ -147,23 +157,30 @@
         </ul>
     </header>
 
-    <div id="portfolioContent">
-        <div class="jumbotron">
-            <!-- Add the video to the jumbotron without controls -->
-            <video autoplay loop muted>
-                <source src="./images.css/AdobeStock_403167341.mov" type="video/mp4">
-                <!-- Add other video formats here as fallback -->
-                Your browser does not support the video tag.
-            </video>
-            <div class="jumbotron-content">
-                <span class="border-bottom">
-                    <h1> Revitalizing Compassion</h1>
-                    <p class="lead">The redesign for Roger Neilson House</p>
-                    <hr class="my-4">
-                    <p>A not-for-profit which provides palliative care for children and families.</p>
-                </span>
-            </div>
-        </div>
+    <div class="jumbotron">
+      <div class="row">
+          <div class="col-md-1">
+              <a href=" https://rogueanuku.github.io/Homework-20-new/">
+                  <img src="./images.css/back_arrow.png" class="img-fluid" alt="Back Arrow">
+              </a>
+          </div>
+          <div class="col-md-11">
+              <video autoplay loop muted>
+                  <source src="./images.css/AdobeStock_403167341.mov" type="video/mp4">
+                  <!-- Add other video formats here as fallback -->
+                  Your browser does not support the video tag.
+              </video>
+              <div class="jumbotron-content">
+                  <span class="border-bottom">
+                      <h1> Revitalizing Compassion</h1>
+                      <p class="lead">The redesign for Roger Neilson House</p>
+                      <hr class="my-4">
+                      <p>A not-for-profit which provides palliative care for children and families.</p>
+                  </span>
+              </div>
+          </div>
+      </div>
+  </div>
         
         <div class="card mb-3" style="width: 100%; margin-top: -6%;">
             <div class="row g-0" style="margin-right: -55%;">
@@ -188,8 +205,7 @@
               <div class="col-md-8" style="max-width: 30%;">
                 <div class="card-body">
                   <h3 class="card-title"style="color: #F23580">Define</h3>
-                  <p class="card-text">The next step in the design process was to define the problem. For this step, we crafted user insight statements and the problem statement. We defined the problem to be: The volunteer application process has been redesigned to maximize a positive user experience. We've observed that users are less likely to complete the application process if required to re-enter information. How might we save a user's information to make the application process less redundant? 
-                    The key performance indicators that will measure the level of success are by an increased volume of applications and time spent on the task. 
+                  <p class="card-text">The next step in the design process was to define the problem. For this step, we crafted user insight statements and the problem statement. We defined the problem to be: The volunteer application process has been redesigned to maximize a positive user experience. We've observed that users are less likely to complete the application process if required to re-enter information.  
                     following the problem statement, we conducted a feature prioritization matrix and user journey mapping.   </p>
                   <p class="card-text"></p>
                  
@@ -206,7 +222,7 @@
               <div class="col-md-8" style="max-width: 30%;">
                 <div class="card-body">
                   <h4 class="card-title" style="color: #F23580">Ideate</h4>
-                  <p class="card-text">? </p>
+                  <p class="card-text">How might we save a user's information to make the application process less redundant? The key performance indicators that will measure the level of success are by an increased volume of applications and time spent on the task. following the problem statement, we conducted a feature prioritization matrix and user journey mapping. </p>
                   <p class="card-text"></p>
                 </div>
               </div>

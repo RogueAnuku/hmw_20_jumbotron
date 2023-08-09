@@ -96,11 +96,14 @@
     line-height: 1.2;
         }
 
-       
-        h2 {
-            color: #F23580;
-        }
-
+        .h1, h1 .h2, h2 .h3, h3 .h4,h4 .h5,h5 .h6,h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    color: #F23580;
+}  
+     
         .lead {
             font-size: 1.25rem;
             font-weight: 300;
@@ -130,6 +133,20 @@
             border-radius: 0%;
             margin-top: -6%;
         }
+       
+        /* Your existing styles */
+
+        /* Add the new CSS rules here */
+        .col-md-1 a img {
+    filter: grayscale(0%); /* Reset grayscale */
+    transition: filter 0.3s ease;
+}
+
+/* Change the filter on hover to the desired color */
+    .col-md-1 a:hover img {
+    filter: invert(37%) sepia(100%) saturate(3833%) hue-rotate(318deg) brightness(91%) contrast(94%);}
+  
+
 
         /* Add your other styles here */
 
@@ -204,7 +221,7 @@
               </div>
               <div class="col-md-8" style="max-width: 30%;">
                 <div class="card-body">
-                  <h3 class="card-title"style="color: #F23580">Define</h3>
+                  <h3 class="card-title" style="color: #F23580">Define</h3>
                   <p class="card-text">The next step in the design process was to define the problem. For this step, we crafted user insight statements and the problem statement. We defined the problem to be: The volunteer application process has been redesigned to maximize a positive user experience. We've observed that users are less likely to complete the application process if required to re-enter information.  
                     following the problem statement, we conducted a feature prioritization matrix and user journey mapping.   </p>
                   <p class="card-text"></p>
@@ -221,7 +238,7 @@
               </div>
               <div class="col-md-8" style="max-width: 30%;">
                 <div class="card-body">
-                  <h4 class="card-title" style="color: #F23580">Ideate</h4>
+                  <h4 class="card-title " style="color: #F23580">Ideate</h4>
                   <p class="card-text">How might we save a user's information to make the application process less redundant? The key performance indicators that will measure the level of success are by an increased volume of applications and time spent on the task. following the problem statement, we conducted a feature prioritization matrix and user journey mapping. </p>
                   <p class="card-text"></p>
                 </div>
@@ -236,7 +253,8 @@
               </div>
               <div class="col-md-8" style="max-width: 30%;">
                 <div class="card-body">
-                  <h5 class="card-title" style="color: #F23580">Design</h5>
+                  <h5 class="card-title " style="color: #F23580">Design</h5>
+<!-- ... -->
                   <p class="card-text">Four different designs were created for the homepage. The team then discussed the best aspects of each wireframe. We then moved forward with choosing one of the designs and incorporating features we liked from others. After that, we designed the additional flows and utalized site mapping. The result of our sitemapping yeilded the addition of a search bar, user login, and an active donate link so users can donate at any time. Lo-fi prototypes were created and a UI style guide, </p>
                   <p class="card-text"><img src= "./images.css/designideas.png"></p>
 
@@ -251,7 +269,7 @@
                 <img src="./images.css/testimg.jpeg" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8" style="max-width: 30%;">
-                <h6 class="card-title" style="color: #F23580">Test</h6>
+                <h6 class="card-title " style="color: #F23580">Test</h6>
                   <p class="card-text">The testing was conducted remotely, involving a moderated usability study with seven participants. They were given four tasks to assess our redesigned sitemap and user flows. Our findings indicated that 60% of the participants preferred having the 'About Us' section included in the primary navigation bar rather than the secondary navigation links, as originally designed. In response to this valuable feedback, we made the necessary changes and incorporated the About section into the primary navigation bar.
 
                     Another significant insight we gained from the study is the crucial importance of users being aware that they are on an official not-for-profit webpage. This is particularly crucial for volunteers and donors, as it builds trust and encourages their involvement. To achieve this, easy access to the About Us section was identified as a vital step in establishing the organization's credibility and reliability.</p>

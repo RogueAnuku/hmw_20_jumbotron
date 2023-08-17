@@ -9,14 +9,37 @@
         body {
             background-color: #000;
         }
-        .top-bar {
+
+        @media (min-width: 320px)
+        {
+          .top-bar-logo img{
+            width: 105px;
+          }
+          .container-fluid {
+            color: #F23580;
+          }
+          .col-md-3 video{width: 100%}
+          .jumbotron {
+                /
+    margin-bottom: 2rem;
+    background-color: #000;
+    border-radius: .3rem;
+}
+.col-md-11 {display: none;}
+.col-md-1 {display: none;}
+.img-fluid {width: 60%;}
+
+
+          }
+        
+  .top-bar {
   background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
-
+        @media (min-width:760px){ 
 .logo {
   display: flex;
   align-items: center;
@@ -145,10 +168,18 @@
 /* Change the filter on hover to the desired color */
     .col-md-1 a:hover img {
     filter: invert(37%) sepia(100%) saturate(3833%) hue-rotate(318deg) brightness(91%) contrast(94%);}
-  
+    }  
 
+    @media (min-width:760px){
+      .row.g-0 {
+       margin-right: -76%;
+}
+.card-text {
+  font-size: 16px;
 
-        /* Add your other styles here */
+}
+      }
+    
 
     </style>
 </head>
